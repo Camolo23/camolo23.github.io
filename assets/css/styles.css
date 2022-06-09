@@ -1,0 +1,9 @@
+.header{
+    background-image: url(../imgs/bd-header-prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.h-f-s{
+    text-shadow:    lightslategray 3px 3px 3px
+}
