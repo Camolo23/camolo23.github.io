@@ -48,3 +48,6 @@ body {
   .anaglyph:hover {
     text-shadow: red -6px 0, cyan 6px 0;
   }
+  .ancho200{
+    width: 200px;
+  }
