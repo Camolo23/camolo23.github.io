@@ -1,0 +1,74 @@
+body{
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+}
+header{
+    background: #000000;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+header h1{
+    margin: 0%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 73px;
+}
+header img{
+    width: 100%;
+}
+main{
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 1.5em 0 1.5em 0;
+}
+main div{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+.main-image img{
+    height: 237px;
+    padding-left: 20%;
+}
+.main-text{
+    padding-left: 10%;
+}
+.features{
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 1em;
+}
+.features i{
+    display: block;
+}
+.feature{
+    display: inline-block;
+    width: 25%;
+    padding: 1%;
+}
+.features h2{
+    font-size: xx-large;
+}
+.gallery{
+    padding: 50px 100px;
+    background-color: #000000;
+}
+.photo{
+    display: inline-block;
+    width: 30%;
+    margin: 0.75%;
+    padding: 0.75%; 
+    height: 300px;
+}
+.photo img{
+    max-height: 100%;
+}
+footer{
+    background-color:#1E1A13 ;
+    text-align: center;
+    line-height: 50px;  
+}
+footer p{
+    margin: 0;
+}
