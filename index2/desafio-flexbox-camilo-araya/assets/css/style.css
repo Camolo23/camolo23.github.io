@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #1B1F21;
+}
+section{
+    display: flex;
+}
+
+                                    /* BORDES */
+                                    
+.border-left-top{
+    border-top: solid #BEC1BB 2px;
+    border-left: solid #BEC1BB 2px;
+}
+.border-bottom{
+    border-bottom: solid #BEC1BB 2px;
+}
+.complete-border{
+    border: solid #BEC1BB 2px;
+}
+
+                                    /* Contenido del Menú */
+
+menu{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0;
+    height: 100vh;
+    padding: 0 !important;
+}
+
+                        /* Contenido del Primer Chat */
+.top-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 4rem;
+}
+.tiny-thumbnail{
+    width: 3rem;
+    border-radius: 100%;
+    margin-right: 1.5rem;
+}
+.contact-name{
+    font-size: 1rem;
+    padding-left: 5px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.user-status{
+    font-size: 0.75rem;
+    margin: 8px 0 0 0 ;
+    color: #828485;
+}
+.top-chat i{
+    margin-left: 2rem;
+    color: #828485;
+}
+
+                        /* Contenido del Botón */
+
+.flex-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+button{
+    background-color: #A491D2;
+    color: white;
+    height: 50%;
+    width: 65%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+}
+button:hover{
+    background-color: #C3CDE6;
+}
+
+                        /* Contenido de la Ventana de Chats */
+
+.normal-thumbnail{
+    width: 4rem;
+    border-radius: 100%;
+    margin-right: 1.5rem;
+}
+.windows-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    padding: 1rem;
+}
+.last-message{
+    font-size: 1rem;
+    margin: 8px 0 0 0 ;
+}
+                                    /* Contenido Principal */
+
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E8EBE4;
+}
+.main-img{
+    width: 50%;
+}
+h1{
+    font-size: 45px;
+    margin: 2rem 0 0 0;    
+}
+.main-text p{
+    color: #444749;
+}
