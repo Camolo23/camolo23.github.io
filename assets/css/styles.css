@@ -1,52 +1,65 @@
 body {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
-.ff-monserrat{
+
+.ff-monserrat {
     font-family: 'Montserrat', sans-serif;
 }
-                /* NAVBAR */
-.logo-nav{
+
+/* NAVBAR */
+.logo-nav {
     width: 50px;
 }
 
-.logo-nav:hover{
+.logo-nav:hover {
     -webkit-transform: scale(1.3);
-	transform: scale(1.3);
-    cursor:none;
+    transform: scale(1.3);
+    cursor: none;
 }
-                /* HEADER */
-.header{
+
+/* HEADER */
+header {
     background-image: url(../imgs/IMG_8248.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.h-f-s{
-    text-shadow:    lightslategray 3px 3px 3px
+
+.h-f-s {
+    text-shadow: lightslategray 3px 3px 3px
 }
-                /* CARRUSEL */
-.carousel-caption-style{
+
+/* CARRUSEL */
+.carousel-caption-style {
     border-radius: 5px;
-} 
-.logo-git{
+}
+
+.logo-git {
     width: 28px;
 }
-.link-web:hover{
+
+.link-web:hover {
     font-weight: bolder;
 }
-                /* FOOTER */
+
+/* FOOTER */
 .anaglyph {
     color: black;
     letter-spacing: 12px;
     text-shadow: red 0 0, cyan 0 0;
     transition: text-shadow 200ms;
     text-decoration: none;
-    cursor:none;
-  }
-  .anaglyph:hover {
+    cursor: none;
+}
+
+.anaglyph:hover {
     text-shadow: red -6px 0, cyan 6px 0;
-  }
-  .ancho200{
+}
+
+.ancho200 {
     width: 200px;
-  }
+}
